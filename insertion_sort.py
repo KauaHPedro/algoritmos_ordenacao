@@ -2,7 +2,8 @@ import random
 
 def insertionSort(lista):
     n = len(lista)
-    for i in range (1, n):
+
+    for i in range(1, n):
         j = i
         while j > 0 and lista[j] < lista[j - 1]:
             aux = lista[j]
